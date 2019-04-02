@@ -1,6 +1,7 @@
-  scope plane
+  Scope Plane.
                   
-                  what they say they need.
+              
+                 What they say they need.
                              1) A website
                              2) For a 1960's rock band.
                              3) They want fans to be able to hear audio clips of music aswell as visuals.
@@ -9,7 +10,7 @@
                              5) The website needs images of the bands members.
                              6) Links to their social media such as facebook & twitter.
                              
-                   what they actually need.
+                   What they actually need.
                               1) A contact page
                               2) A mobile-first responsive website.
                               3) A ipad responsive website aswell as being adaptive to a laptop.
@@ -17,6 +18,18 @@
                               5) Dates & destinations of the bands tours.
                               6) Audio clips & video clips of the band.
     
-                   what they dont know they need.
+                   What they dont know they need.
                               1) A sign up pop up to keep receiving information.
                               2) Possibly a merchandise page at a later date.
+                             
+                              
+                              
+                            Scenario                                                 Requirements
+                              The fans want to listen to the beatles       The acessibility to listen to audio clips & videos.
+                      
+                            Scenario                                                 Requirements
+                              the fans want to view pictures.                 The ability to view their images.
+
+                            Scenario                                                  Requirements
+                              The fans want to know of the                   Have dates and places of their tours.
+                              beatles touring history.
