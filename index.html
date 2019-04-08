@@ -8,81 +8,8 @@
     <title>The Beatles | The Presence, The Beatles.</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
-<style>
-html {
-    height:100%;
-    margin:0;
-    padding:0;
-}
-body{
-    height:100%;
-    padding:0;
-    margin:0;
-}
- wrapper{
-        min-height:100%;
-        position:relative;
-    }
-    footer{
-        height:50px;
-        width:100%;
-        background-color:lightgrey;
-        position:relative;
-        left:0px;
-        bottom:0px;
-        text-align:center;
-    }
-    .box{
-        width:auto;
-        height:400px;
-        background:#CCC;
-        margin:0px auto;
-        background-image:linear-gradient(
-    to bottom,
-    rgba(0,0,0,0),
-    rgba(1,1,1,10)
-  ),url(https://cdn-images-1.medium.com/max/2000/1*zdmpyfSSsyJbUWP3wU0onw.jpeg);
-        background-size:cover;
-    }
-    .box h1{
-        margin:0;
-        padding:0;
-        font-family:arial;
-        color: white;
-        font-size:3em;
-        text-align:center;
-        position:relative;
-        top:30%;
-        
-    }
-    .box p{
-        margin:0;
-        padding:0;
-        text-align:center;
-        position:relative;
-        top:35%;
-        color:darkgrey;
-       
-    }
-    h2{
-        text-align:center;
-        margin:40px auto;
-    }
-    li a{
-        color:black;
-    }
-    a{
-        color:black;
-    }
-   img{
-       margin:20px auto;
-       padding:0;
-   }
-    
-</style>
 
 <body>
     <div id="wrapper">
@@ -117,7 +44,7 @@ body{
                 </ul>
 
                 <div class="navbar-header navbar-right hidden-xs">
-                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
+                    <p><button class="btn btn-lg btn--cta" data-toggle='modal' data-target='#signUpModal1'>Sign Up</button></p>
                     <p class="navbar-text"><i>Great merchandise delivered to your door</i></p>
                 </div>
             </div>
@@ -128,11 +55,11 @@ body{
         <!-- Callout -->
         <div class="row">
             <div class="col-xs-12">
-            <div class="box">
+            <div class="box home">
 
                     
                     <h1>The Beatles</h1>
-                    <p><button class="btn btn-lg btn--cta" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                    <p><button class="btn btn-lg btn--cta" data-toggle='modal' data-target='#signUpModal'>Sign up!</button></p>
             
                </div> 
             </div>
@@ -178,11 +105,12 @@ body{
                         </div>
                     </div>
                 </div>
+                </div>
             </section>
             <!-- /.quotes -->
         </div>
     </div>
-
+</div>
     <div class="container-wrapper container-wrapper">
         <div class="container features-container content-container">
             <!-- Features -->
@@ -226,9 +154,36 @@ Get yours at https://TheBeatles.lnk.to/YellowSubmarinePictureDisc
             <!-- /.features -->
         </div>
     </div>
-
+    <!--modal-->
+      <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up For Merch Drop!</h4>
+                </div>
+                <div class="modal-body">
+                    
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block"></p>We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
     <!-- Modal -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="signUpModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
